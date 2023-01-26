@@ -1,0 +1,101 @@
+{
+  "program_options": {
+    "verbose": "0",
+    "stop-at": "0 ns",
+    "print-timing-info": "false",
+    "heartbeat-period": "",
+    "timebase": "1 ps",
+    "partitioner": "sst.single",
+    "timeVortex": "sst.timevortex.priority_queue",
+    "interthread-links": "false",
+    "output-prefix-core": "@x SST Core: "
+  },
+  "components": [
+    {
+      "name": "cpu",
+      "type": "miranda.BaseCPU",
+      "params": {
+        "verbose": "0",
+        "clock": "2GHz",
+        "printStats": "1"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "generator",
+          "slot_number": 0,
+          "type": "miranda.Stencil3DBenchGenerator",
+          "params": {
+            "verbose": "0",
+            "nx": "30",
+            "ny": "20",
+            "nz": "10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "l1cache",
+      "type": "memHierarchy.Cache",
+      "params": {
+        "access_latency_cycles": "2",
+        "cache_frequency": "2 GHz",
+        "replacement_policy": "lru",
+        "coherence_protocol": "MESI",
+        "associativity": "4",
+        "cache_line_size": "64",
+        "prefetcher": "cassini.StridePrefetcher",
+        "debug": "0",
+        "L1": "1",
+        "cache_size": "32KB"
+      }
+    },
+    {
+      "name": "memory",
+      "type": "memHierarchy.MemController",
+      "params": {
+        "clock": "1GHz",
+        "addr_range_end": "4294967295"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "backend",
+          "slot_number": 0,
+          "type": "memHierarchy.simpleMem",
+          "params": {
+            "access_time": "100 ns",
+            "mem_size": "4096MiB"
+          }
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "name": "link_cpu_cache_link",
+      "noCut": true,
+      "left": {
+        "component": "cpu",
+        "port": "cache_link",
+        "latency": "1000ps"
+      },
+      "right": {
+        "component": "l1cache",
+        "port": "high_network_0",
+        "latency": "1000ps"
+      }
+    },
+    {
+      "name": "link_mem_bus_link",
+      "left": {
+        "component": "l1cache",
+        "port": "low_network_0",
+        "latency": "50ps"
+      },
+      "right": {
+        "component": "memory",
+        "port": "direct_link",
+        "latency": "50ps"
+      }
+    }
+  ]
+}

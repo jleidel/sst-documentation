@@ -1,0 +1,3517 @@
+{
+  "program_options": {
+    "verbose": "1",
+    "stop-at": "25us",
+    "print-timing-info": "false",
+    "heartbeat-period": "",
+    "timebase": "1 ps",
+    "partitioner": "sst.single",
+    "timeVortex": "sst.timevortex.priority_queue",
+    "interthread-links": "false",
+    "output-prefix-core": "@x SST Core: "
+  },
+  "components": [
+    {
+      "name": "c0.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.4",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.5",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.6",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.7",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.8",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c0.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c1.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c2.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c3.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c4.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c5.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c6.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c7.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c8.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "c9.9",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "link_s_0_10",
+      "left": {
+        "component": "c0.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_0_90",
+      "left": {
+        "component": "c0.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_0_1",
+      "left": {
+        "component": "c0.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_0_9",
+      "left": {
+        "component": "c0.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_1_11",
+      "left": {
+        "component": "c1.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_1_91",
+      "left": {
+        "component": "c1.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_1_2",
+      "left": {
+        "component": "c1.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_2_12",
+      "left": {
+        "component": "c2.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_2_92",
+      "left": {
+        "component": "c2.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_2_3",
+      "left": {
+        "component": "c2.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_3_13",
+      "left": {
+        "component": "c3.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_3_93",
+      "left": {
+        "component": "c3.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_3_4",
+      "left": {
+        "component": "c3.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_4_14",
+      "left": {
+        "component": "c4.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_4_94",
+      "left": {
+        "component": "c4.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_4_5",
+      "left": {
+        "component": "c4.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_5_15",
+      "left": {
+        "component": "c5.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_5_95",
+      "left": {
+        "component": "c5.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_5_6",
+      "left": {
+        "component": "c5.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_6_16",
+      "left": {
+        "component": "c6.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_6_96",
+      "left": {
+        "component": "c6.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_6_7",
+      "left": {
+        "component": "c6.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_7_17",
+      "left": {
+        "component": "c7.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_7_97",
+      "left": {
+        "component": "c7.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_7_8",
+      "left": {
+        "component": "c7.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_8_18",
+      "left": {
+        "component": "c8.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_8_98",
+      "left": {
+        "component": "c8.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_8_9",
+      "left": {
+        "component": "c8.0",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.0",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_9_19",
+      "left": {
+        "component": "c9.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_9_99",
+      "left": {
+        "component": "c9.0",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.9",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_10_20",
+      "left": {
+        "component": "c0.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_10_11",
+      "left": {
+        "component": "c0.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_10_19",
+      "left": {
+        "component": "c0.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_11_21",
+      "left": {
+        "component": "c1.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_11_12",
+      "left": {
+        "component": "c1.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_12_22",
+      "left": {
+        "component": "c2.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_12_13",
+      "left": {
+        "component": "c2.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_13_23",
+      "left": {
+        "component": "c3.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_13_14",
+      "left": {
+        "component": "c3.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_14_24",
+      "left": {
+        "component": "c4.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_14_15",
+      "left": {
+        "component": "c4.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_15_25",
+      "left": {
+        "component": "c5.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_15_16",
+      "left": {
+        "component": "c5.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_16_26",
+      "left": {
+        "component": "c6.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_16_17",
+      "left": {
+        "component": "c6.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_17_27",
+      "left": {
+        "component": "c7.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_17_18",
+      "left": {
+        "component": "c7.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_18_28",
+      "left": {
+        "component": "c8.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_18_19",
+      "left": {
+        "component": "c8.1",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.1",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_19_29",
+      "left": {
+        "component": "c9.1",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_20_30",
+      "left": {
+        "component": "c0.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_20_21",
+      "left": {
+        "component": "c0.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_20_29",
+      "left": {
+        "component": "c0.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_21_31",
+      "left": {
+        "component": "c1.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_21_22",
+      "left": {
+        "component": "c1.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_22_32",
+      "left": {
+        "component": "c2.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_22_23",
+      "left": {
+        "component": "c2.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_23_33",
+      "left": {
+        "component": "c3.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_23_24",
+      "left": {
+        "component": "c3.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_24_34",
+      "left": {
+        "component": "c4.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_24_25",
+      "left": {
+        "component": "c4.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_25_35",
+      "left": {
+        "component": "c5.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_25_26",
+      "left": {
+        "component": "c5.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_26_36",
+      "left": {
+        "component": "c6.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_26_27",
+      "left": {
+        "component": "c6.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_27_37",
+      "left": {
+        "component": "c7.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_27_28",
+      "left": {
+        "component": "c7.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_28_38",
+      "left": {
+        "component": "c8.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_28_29",
+      "left": {
+        "component": "c8.2",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.2",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_29_39",
+      "left": {
+        "component": "c9.2",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.3",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_30_40",
+      "left": {
+        "component": "c0.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_30_31",
+      "left": {
+        "component": "c0.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_30_39",
+      "left": {
+        "component": "c0.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_31_41",
+      "left": {
+        "component": "c1.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_31_32",
+      "left": {
+        "component": "c1.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_32_42",
+      "left": {
+        "component": "c2.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_32_33",
+      "left": {
+        "component": "c2.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_33_43",
+      "left": {
+        "component": "c3.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_33_34",
+      "left": {
+        "component": "c3.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_34_44",
+      "left": {
+        "component": "c4.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_34_35",
+      "left": {
+        "component": "c4.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_35_45",
+      "left": {
+        "component": "c5.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_35_36",
+      "left": {
+        "component": "c5.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_36_46",
+      "left": {
+        "component": "c6.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_36_37",
+      "left": {
+        "component": "c6.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_37_47",
+      "left": {
+        "component": "c7.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_37_38",
+      "left": {
+        "component": "c7.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_38_48",
+      "left": {
+        "component": "c8.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_38_39",
+      "left": {
+        "component": "c8.3",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.3",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_39_49",
+      "left": {
+        "component": "c9.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.4",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_40_50",
+      "left": {
+        "component": "c0.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_40_41",
+      "left": {
+        "component": "c0.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_40_49",
+      "left": {
+        "component": "c0.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_41_51",
+      "left": {
+        "component": "c1.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_41_42",
+      "left": {
+        "component": "c1.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_42_52",
+      "left": {
+        "component": "c2.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_42_43",
+      "left": {
+        "component": "c2.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_43_53",
+      "left": {
+        "component": "c3.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_43_44",
+      "left": {
+        "component": "c3.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_44_54",
+      "left": {
+        "component": "c4.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_44_45",
+      "left": {
+        "component": "c4.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_45_55",
+      "left": {
+        "component": "c5.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_45_46",
+      "left": {
+        "component": "c5.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_46_56",
+      "left": {
+        "component": "c6.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_46_47",
+      "left": {
+        "component": "c6.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_47_57",
+      "left": {
+        "component": "c7.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_47_48",
+      "left": {
+        "component": "c7.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_48_58",
+      "left": {
+        "component": "c8.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_48_49",
+      "left": {
+        "component": "c8.4",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.4",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_49_59",
+      "left": {
+        "component": "c9.4",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.5",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_50_60",
+      "left": {
+        "component": "c0.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_50_51",
+      "left": {
+        "component": "c0.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_50_59",
+      "left": {
+        "component": "c0.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_51_61",
+      "left": {
+        "component": "c1.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_51_52",
+      "left": {
+        "component": "c1.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_52_62",
+      "left": {
+        "component": "c2.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_52_53",
+      "left": {
+        "component": "c2.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_53_63",
+      "left": {
+        "component": "c3.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_53_54",
+      "left": {
+        "component": "c3.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_54_64",
+      "left": {
+        "component": "c4.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_54_55",
+      "left": {
+        "component": "c4.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_55_65",
+      "left": {
+        "component": "c5.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_55_56",
+      "left": {
+        "component": "c5.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_56_66",
+      "left": {
+        "component": "c6.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_56_57",
+      "left": {
+        "component": "c6.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_57_67",
+      "left": {
+        "component": "c7.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_57_58",
+      "left": {
+        "component": "c7.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_58_68",
+      "left": {
+        "component": "c8.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_58_59",
+      "left": {
+        "component": "c8.5",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.5",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_59_69",
+      "left": {
+        "component": "c9.5",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.6",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_60_70",
+      "left": {
+        "component": "c0.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_60_61",
+      "left": {
+        "component": "c0.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_60_69",
+      "left": {
+        "component": "c0.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_61_71",
+      "left": {
+        "component": "c1.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_61_62",
+      "left": {
+        "component": "c1.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_62_72",
+      "left": {
+        "component": "c2.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_62_63",
+      "left": {
+        "component": "c2.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_63_73",
+      "left": {
+        "component": "c3.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_63_64",
+      "left": {
+        "component": "c3.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_64_74",
+      "left": {
+        "component": "c4.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_64_65",
+      "left": {
+        "component": "c4.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_65_75",
+      "left": {
+        "component": "c5.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_65_66",
+      "left": {
+        "component": "c5.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_66_76",
+      "left": {
+        "component": "c6.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_66_67",
+      "left": {
+        "component": "c6.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_67_77",
+      "left": {
+        "component": "c7.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_67_68",
+      "left": {
+        "component": "c7.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_68_78",
+      "left": {
+        "component": "c8.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_68_69",
+      "left": {
+        "component": "c8.6",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.6",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_69_79",
+      "left": {
+        "component": "c9.6",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.7",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_70_80",
+      "left": {
+        "component": "c0.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_70_71",
+      "left": {
+        "component": "c0.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_70_79",
+      "left": {
+        "component": "c0.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_71_81",
+      "left": {
+        "component": "c1.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_71_72",
+      "left": {
+        "component": "c1.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_72_82",
+      "left": {
+        "component": "c2.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_72_73",
+      "left": {
+        "component": "c2.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_73_83",
+      "left": {
+        "component": "c3.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_73_74",
+      "left": {
+        "component": "c3.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_74_84",
+      "left": {
+        "component": "c4.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_74_75",
+      "left": {
+        "component": "c4.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_75_85",
+      "left": {
+        "component": "c5.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_75_76",
+      "left": {
+        "component": "c5.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_76_86",
+      "left": {
+        "component": "c6.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_76_77",
+      "left": {
+        "component": "c6.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_77_87",
+      "left": {
+        "component": "c7.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_77_78",
+      "left": {
+        "component": "c7.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_78_88",
+      "left": {
+        "component": "c8.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_78_79",
+      "left": {
+        "component": "c8.7",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.7",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_79_89",
+      "left": {
+        "component": "c9.7",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.8",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_80_90",
+      "left": {
+        "component": "c0.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c0.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_80_81",
+      "left": {
+        "component": "c0.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_80_89",
+      "left": {
+        "component": "c0.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_81_91",
+      "left": {
+        "component": "c1.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_81_82",
+      "left": {
+        "component": "c1.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_82_92",
+      "left": {
+        "component": "c2.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_82_83",
+      "left": {
+        "component": "c2.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_83_93",
+      "left": {
+        "component": "c3.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_83_84",
+      "left": {
+        "component": "c3.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_84_94",
+      "left": {
+        "component": "c4.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_84_85",
+      "left": {
+        "component": "c4.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_85_95",
+      "left": {
+        "component": "c5.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_85_86",
+      "left": {
+        "component": "c5.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_86_96",
+      "left": {
+        "component": "c6.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_86_87",
+      "left": {
+        "component": "c6.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_87_97",
+      "left": {
+        "component": "c7.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_87_88",
+      "left": {
+        "component": "c7.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_88_98",
+      "left": {
+        "component": "c8.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_88_89",
+      "left": {
+        "component": "c8.8",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.8",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_89_99",
+      "left": {
+        "component": "c9.8",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.9",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_90_91",
+      "left": {
+        "component": "c0.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c1.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_90_99",
+      "left": {
+        "component": "c0.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_91_92",
+      "left": {
+        "component": "c1.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c2.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_92_93",
+      "left": {
+        "component": "c2.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c3.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_93_94",
+      "left": {
+        "component": "c3.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c4.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_94_95",
+      "left": {
+        "component": "c4.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c5.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_95_96",
+      "left": {
+        "component": "c5.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c6.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_96_97",
+      "left": {
+        "component": "c6.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c7.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_97_98",
+      "left": {
+        "component": "c7.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c8.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_98_99",
+      "left": {
+        "component": "c8.9",
+        "port": "Elink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "c9.9",
+        "port": "Wlink",
+        "latency": "10000ps"
+      }
+    }
+  ]
+}

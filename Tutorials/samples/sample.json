@@ -1,0 +1,86 @@
+{
+  "program_options":{
+    "verbose": "1",
+    "stop-at": "25us",
+    "timeVortex": "sst.timevortex.priority_queue"
+  },
+  "components":[
+    {
+      "name": "component.0",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "component.1",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "generator",
+          "slot_number": 0,
+          "type": "miranda.Stencil3DBenchGenerator",
+          "params": {
+            "verbose": "0",
+            "nx": "30",
+            "ny": "20",
+            "nz": "10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "component.2",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    },
+    {
+      "name": "component.3",
+      "type": "coreTestElement.coreTestComponent",
+      "params": {
+        "workPerCycle": "1000",
+        "commSize": "100",
+        "commFreq": "1000"
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "link_s_0_10",
+      "left": {
+        "component": "component.0",
+        "port": "Nlink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "component.1",
+        "port": "Slink",
+        "latency": "10000ps"
+      }
+    },
+    {
+      "name": "link_s_0_90",
+      "left": {
+        "component": "component.2",
+        "port": "Slink",
+        "latency": "10000ps"
+      },
+      "right": {
+        "component": "component.3",
+        "port": "Nlink",
+        "latency": "10000ps"
+      }
+    }
+  ]
+}

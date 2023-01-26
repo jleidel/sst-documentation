@@ -1,0 +1,62 @@
+{
+  "program_options": {
+    "verbose": "1",
+    "stop-at": "0 ns",
+    "print-timing-info": "false",
+    "heartbeat-period": "",
+    "timebase": "1 ps",
+    "partitioner": "sst.linear",
+    "timeVortex": "sst.timevortex.priority_queue",
+    "interthread-links": "false",
+    "output-prefix-core": "@x SST Core: "
+  },
+  "components": [
+    {
+      "name": "l1cache",
+      "type": "memHierarchy.Cache",
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "memory",
+      "type": "memHierarchy.MemController",
+      "params": {
+        "clock": "1GHz",
+        "addr_range_end": "4294967295"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "backend",
+          "slot_number": 0,
+          "type": "memHierarchy.simpleMem",
+          "params": {
+            "access_time": "100 ns",
+            "mem_size": "4096MiB"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "link_mem_bus_link",
+      "noCut": true,
+      "left": {
+        "component": "l1cache",
+        "port": "low_network_0",
+        "latency": "50ps"
+      },
+      "right": {
+        "component": "memory",
+        "port": "direct_link",
+        "latency": "50ps"
+      }
+    }
+  ]
+}
