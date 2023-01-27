@@ -1,0 +1,3217 @@
+{
+  "program_options": {
+    "verbose": "1",
+    "stop-at": "0 ns",
+    "print-timing-info": "false",
+    "heartbeat-period": "",
+    "timebase": "1 ps",
+    "partitioner": "sst.linear",
+    "timeVortex": "sst.timevortex.priority_queue",
+    "interthread-links": "false",
+    "output-prefix-core": "@x SST Core: "
+  },
+  "components": [
+    {
+      "name": "rtr_l1_g0_r0",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r1",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r2",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r3",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r4",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r5",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r6",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g0_r7",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r0",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r1",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r2",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r3",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r4",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r5",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r6",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g1_r7",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 0,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r0",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r1",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r2",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r3",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r4",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r5",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r6",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g2_r7",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r0",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r1",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r2",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r3",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r4",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r5",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r6",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l1_g3_r7",
+      "type": "merlin.hr_router",
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree"
+        }
+      ],
+      "partition": {
+        "rank": 1,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r32",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "96",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r33",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "97",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r34",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "98",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r35",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "99",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r36",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "100",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r37",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "101",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r38",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "102",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r39",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "103",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r40",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "104",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r41",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "105",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r42",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "106",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r43",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "107",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r44",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "108",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r45",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "109",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r46",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "110",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r47",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "111",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r48",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "112",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r49",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "113",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r50",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "114",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r51",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "115",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r52",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "116",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r53",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "117",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r54",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "118",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r55",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "119",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r56",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "120",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r57",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "121",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r58",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "122",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r59",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "123",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r60",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "124",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r61",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "125",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r62",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "126",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    },
+    {
+      "name": "rtr_l2_g0_r63",
+      "type": "merlin.hr_router",
+      "params": {
+        "link_bw": "4GB/s",
+        "id": "127",
+        "topology": "merlin.fattree",
+        "debug": "0",
+        "flit_size": "8B",
+        "xbar_bw": "4GB/s",
+        "input_latency": "20ns",
+        "output_latency": "20ns",
+        "input_buf_size": "4kB",
+        "output_buf_size": "4kB",
+        "fattree:shape": "8,8:8,8:4",
+        "xbar_arb": "merlin.xbar_arb_lru",
+        "num_ports": "4"
+      },
+      "subcomponents": [
+        {
+          "slot_name": "topology",
+          "slot_number": 0,
+          "type": "merlin.fattree",
+          "params": {
+            "shape": "8,8:8,8:4"
+          }
+        }
+      ],
+      "partition": {
+        "rank": 3,
+        "thread": 0
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "link_l2_g0_r32_p0",
+      "left": {
+        "component": "rtr_l1_g0_r0",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r32",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r40_p0",
+      "left": {
+        "component": "rtr_l1_g0_r0",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r40",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r48_p0",
+      "left": {
+        "component": "rtr_l1_g0_r0",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r48",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r56_p0",
+      "left": {
+        "component": "rtr_l1_g0_r0",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r56",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r33_p0",
+      "left": {
+        "component": "rtr_l1_g0_r1",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r33",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r41_p0",
+      "left": {
+        "component": "rtr_l1_g0_r1",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r41",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r49_p0",
+      "left": {
+        "component": "rtr_l1_g0_r1",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r49",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r57_p0",
+      "left": {
+        "component": "rtr_l1_g0_r1",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r57",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r34_p0",
+      "left": {
+        "component": "rtr_l1_g0_r2",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r34",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r42_p0",
+      "left": {
+        "component": "rtr_l1_g0_r2",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r42",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r50_p0",
+      "left": {
+        "component": "rtr_l1_g0_r2",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r50",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r58_p0",
+      "left": {
+        "component": "rtr_l1_g0_r2",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r58",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r35_p0",
+      "left": {
+        "component": "rtr_l1_g0_r3",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r35",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r43_p0",
+      "left": {
+        "component": "rtr_l1_g0_r3",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r43",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r51_p0",
+      "left": {
+        "component": "rtr_l1_g0_r3",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r51",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r59_p0",
+      "left": {
+        "component": "rtr_l1_g0_r3",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r59",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r36_p0",
+      "left": {
+        "component": "rtr_l1_g0_r4",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r36",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r44_p0",
+      "left": {
+        "component": "rtr_l1_g0_r4",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r44",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r52_p0",
+      "left": {
+        "component": "rtr_l1_g0_r4",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r52",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r60_p0",
+      "left": {
+        "component": "rtr_l1_g0_r4",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r60",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r37_p0",
+      "left": {
+        "component": "rtr_l1_g0_r5",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r37",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r45_p0",
+      "left": {
+        "component": "rtr_l1_g0_r5",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r45",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r53_p0",
+      "left": {
+        "component": "rtr_l1_g0_r5",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r53",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r61_p0",
+      "left": {
+        "component": "rtr_l1_g0_r5",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r61",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r38_p0",
+      "left": {
+        "component": "rtr_l1_g0_r6",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r38",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r46_p0",
+      "left": {
+        "component": "rtr_l1_g0_r6",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r46",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r54_p0",
+      "left": {
+        "component": "rtr_l1_g0_r6",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r54",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r62_p0",
+      "left": {
+        "component": "rtr_l1_g0_r6",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r62",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r39_p0",
+      "left": {
+        "component": "rtr_l1_g0_r7",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r39",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r47_p0",
+      "left": {
+        "component": "rtr_l1_g0_r7",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r47",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r55_p0",
+      "left": {
+        "component": "rtr_l1_g0_r7",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r55",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r63_p0",
+      "left": {
+        "component": "rtr_l1_g0_r7",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r63",
+        "port": "port0",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r32_p1",
+      "left": {
+        "component": "rtr_l1_g1_r0",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r32",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r40_p1",
+      "left": {
+        "component": "rtr_l1_g1_r0",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r40",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r48_p1",
+      "left": {
+        "component": "rtr_l1_g1_r0",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r48",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r56_p1",
+      "left": {
+        "component": "rtr_l1_g1_r0",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r56",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r33_p1",
+      "left": {
+        "component": "rtr_l1_g1_r1",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r33",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r41_p1",
+      "left": {
+        "component": "rtr_l1_g1_r1",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r41",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r49_p1",
+      "left": {
+        "component": "rtr_l1_g1_r1",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r49",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r57_p1",
+      "left": {
+        "component": "rtr_l1_g1_r1",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r57",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r34_p1",
+      "left": {
+        "component": "rtr_l1_g1_r2",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r34",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r42_p1",
+      "left": {
+        "component": "rtr_l1_g1_r2",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r42",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r50_p1",
+      "left": {
+        "component": "rtr_l1_g1_r2",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r50",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r58_p1",
+      "left": {
+        "component": "rtr_l1_g1_r2",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r58",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r35_p1",
+      "left": {
+        "component": "rtr_l1_g1_r3",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r35",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r43_p1",
+      "left": {
+        "component": "rtr_l1_g1_r3",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r43",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r51_p1",
+      "left": {
+        "component": "rtr_l1_g1_r3",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r51",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r59_p1",
+      "left": {
+        "component": "rtr_l1_g1_r3",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r59",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r36_p1",
+      "left": {
+        "component": "rtr_l1_g1_r4",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r36",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r44_p1",
+      "left": {
+        "component": "rtr_l1_g1_r4",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r44",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r52_p1",
+      "left": {
+        "component": "rtr_l1_g1_r4",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r52",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r60_p1",
+      "left": {
+        "component": "rtr_l1_g1_r4",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r60",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r37_p1",
+      "left": {
+        "component": "rtr_l1_g1_r5",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r37",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r45_p1",
+      "left": {
+        "component": "rtr_l1_g1_r5",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r45",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r53_p1",
+      "left": {
+        "component": "rtr_l1_g1_r5",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r53",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r61_p1",
+      "left": {
+        "component": "rtr_l1_g1_r5",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r61",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r38_p1",
+      "left": {
+        "component": "rtr_l1_g1_r6",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r38",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r46_p1",
+      "left": {
+        "component": "rtr_l1_g1_r6",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r46",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r54_p1",
+      "left": {
+        "component": "rtr_l1_g1_r6",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r54",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r62_p1",
+      "left": {
+        "component": "rtr_l1_g1_r6",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r62",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r39_p1",
+      "left": {
+        "component": "rtr_l1_g1_r7",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r39",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r47_p1",
+      "left": {
+        "component": "rtr_l1_g1_r7",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r47",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r55_p1",
+      "left": {
+        "component": "rtr_l1_g1_r7",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r55",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r63_p1",
+      "left": {
+        "component": "rtr_l1_g1_r7",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r63",
+        "port": "port1",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r32_p2",
+      "left": {
+        "component": "rtr_l1_g2_r0",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r32",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r40_p2",
+      "left": {
+        "component": "rtr_l1_g2_r0",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r40",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r48_p2",
+      "left": {
+        "component": "rtr_l1_g2_r0",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r48",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r56_p2",
+      "left": {
+        "component": "rtr_l1_g2_r0",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r56",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r33_p2",
+      "left": {
+        "component": "rtr_l1_g2_r1",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r33",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r41_p2",
+      "left": {
+        "component": "rtr_l1_g2_r1",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r41",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r49_p2",
+      "left": {
+        "component": "rtr_l1_g2_r1",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r49",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r57_p2",
+      "left": {
+        "component": "rtr_l1_g2_r1",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r57",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r34_p2",
+      "left": {
+        "component": "rtr_l1_g2_r2",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r34",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r42_p2",
+      "left": {
+        "component": "rtr_l1_g2_r2",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r42",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r50_p2",
+      "left": {
+        "component": "rtr_l1_g2_r2",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r50",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r58_p2",
+      "left": {
+        "component": "rtr_l1_g2_r2",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r58",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r35_p2",
+      "left": {
+        "component": "rtr_l1_g2_r3",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r35",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r43_p2",
+      "left": {
+        "component": "rtr_l1_g2_r3",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r43",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r51_p2",
+      "left": {
+        "component": "rtr_l1_g2_r3",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r51",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r59_p2",
+      "left": {
+        "component": "rtr_l1_g2_r3",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r59",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r36_p2",
+      "left": {
+        "component": "rtr_l1_g2_r4",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r36",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r44_p2",
+      "left": {
+        "component": "rtr_l1_g2_r4",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r44",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r52_p2",
+      "left": {
+        "component": "rtr_l1_g2_r4",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r52",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r60_p2",
+      "left": {
+        "component": "rtr_l1_g2_r4",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r60",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r37_p2",
+      "left": {
+        "component": "rtr_l1_g2_r5",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r37",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r45_p2",
+      "left": {
+        "component": "rtr_l1_g2_r5",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r45",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r53_p2",
+      "left": {
+        "component": "rtr_l1_g2_r5",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r53",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r61_p2",
+      "left": {
+        "component": "rtr_l1_g2_r5",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r61",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r38_p2",
+      "left": {
+        "component": "rtr_l1_g2_r6",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r38",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r46_p2",
+      "left": {
+        "component": "rtr_l1_g2_r6",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r46",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r54_p2",
+      "left": {
+        "component": "rtr_l1_g2_r6",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r54",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r62_p2",
+      "left": {
+        "component": "rtr_l1_g2_r6",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r62",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r39_p2",
+      "left": {
+        "component": "rtr_l1_g2_r7",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r39",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r47_p2",
+      "left": {
+        "component": "rtr_l1_g2_r7",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r47",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r55_p2",
+      "left": {
+        "component": "rtr_l1_g2_r7",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r55",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r63_p2",
+      "left": {
+        "component": "rtr_l1_g2_r7",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r63",
+        "port": "port2",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r32_p3",
+      "left": {
+        "component": "rtr_l1_g3_r0",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r32",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r40_p3",
+      "left": {
+        "component": "rtr_l1_g3_r0",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r40",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r48_p3",
+      "left": {
+        "component": "rtr_l1_g3_r0",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r48",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r56_p3",
+      "left": {
+        "component": "rtr_l1_g3_r0",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r56",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r33_p3",
+      "left": {
+        "component": "rtr_l1_g3_r1",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r33",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r41_p3",
+      "left": {
+        "component": "rtr_l1_g3_r1",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r41",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r49_p3",
+      "left": {
+        "component": "rtr_l1_g3_r1",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r49",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r57_p3",
+      "left": {
+        "component": "rtr_l1_g3_r1",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r57",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r34_p3",
+      "left": {
+        "component": "rtr_l1_g3_r2",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r34",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r42_p3",
+      "left": {
+        "component": "rtr_l1_g3_r2",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r42",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r50_p3",
+      "left": {
+        "component": "rtr_l1_g3_r2",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r50",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r58_p3",
+      "left": {
+        "component": "rtr_l1_g3_r2",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r58",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r35_p3",
+      "left": {
+        "component": "rtr_l1_g3_r3",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r35",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r43_p3",
+      "left": {
+        "component": "rtr_l1_g3_r3",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r43",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r51_p3",
+      "left": {
+        "component": "rtr_l1_g3_r3",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r51",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r59_p3",
+      "left": {
+        "component": "rtr_l1_g3_r3",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r59",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r36_p3",
+      "left": {
+        "component": "rtr_l1_g3_r4",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r36",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r44_p3",
+      "left": {
+        "component": "rtr_l1_g3_r4",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r44",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r52_p3",
+      "left": {
+        "component": "rtr_l1_g3_r4",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r52",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r60_p3",
+      "left": {
+        "component": "rtr_l1_g3_r4",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r60",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r37_p3",
+      "left": {
+        "component": "rtr_l1_g3_r5",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r37",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r45_p3",
+      "left": {
+        "component": "rtr_l1_g3_r5",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r45",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r53_p3",
+      "left": {
+        "component": "rtr_l1_g3_r5",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r53",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r61_p3",
+      "left": {
+        "component": "rtr_l1_g3_r5",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r61",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r38_p3",
+      "left": {
+        "component": "rtr_l1_g3_r6",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r38",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r46_p3",
+      "left": {
+        "component": "rtr_l1_g3_r6",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r46",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r54_p3",
+      "left": {
+        "component": "rtr_l1_g3_r6",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r54",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r62_p3",
+      "left": {
+        "component": "rtr_l1_g3_r6",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r62",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r39_p3",
+      "left": {
+        "component": "rtr_l1_g3_r7",
+        "port": "port12",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r39",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r47_p3",
+      "left": {
+        "component": "rtr_l1_g3_r7",
+        "port": "port13",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r47",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r55_p3",
+      "left": {
+        "component": "rtr_l1_g3_r7",
+        "port": "port14",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r55",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    },
+    {
+      "name": "link_l2_g0_r63_p3",
+      "left": {
+        "component": "rtr_l1_g3_r7",
+        "port": "port15",
+        "latency": "20ns"
+      },
+      "right": {
+        "component": "rtr_l2_g0_r63",
+        "port": "port3",
+        "latency": "20ns"
+      }
+    }
+  ]
+}
